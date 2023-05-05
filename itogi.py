@@ -8,3 +8,6 @@ for item in input_array:
     if len(item) <= 3:
         output_array.append(item)
 
+# Вывод результата
+print("Новый массив из строк, длина которых меньше или равна 3 символам:")
+print(output_array)
